@@ -1,0 +1,132 @@
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    }
+
+  header .logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 30px;
+}
+
+  header nav {
+    display: inline-block;
+    padding: 15px;
+}
+
+body {
+    display: block;
+    margin: 0px auto;  /* keep header at the top with no bleed */
+    border: 0;    /* keep header at the top with no bleed */
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+ }
+
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+.all-content {
+      padding-top: 69px;
+      opacity: 0.9;
+      z-index: 1;
+      width: 1200px;
+      margin: auto;
+    }
+
+#mission {
+    height: 700px;
+    width: auto;
+    background-image: url(../media/img-mission-background.jpg);
+    padding-top: 70px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+#mission .content {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+}
+
+#featured {
+  width: 1000px;
+  height: 720px;
+  background-color: black;
+  align-items: flex-end;
+  margin: auto;
+  }
+
+#featured .content {
+    display: block;
+}
+
+.teas  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.teas-img {
+    display: block;
+}
+
+#locations{
+    height: 500px;
+    width: auto;
+    z-index: 3;
+    background-image: url('../media/img-locations-background.jpg');
+}
+
+#locations .content {
+    display: block;
+}
+
+.locations-contain {
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+}
+
+.location-box {
+    background-color: black;
+    width: 300px;
+    margin: 15px 40px;
+    opacity: 1;
+    text-align: center;
+  }
+
+.contact {
+    display: block;
+    height: 200px;
+    text-align: center;
+}
+
+footer {
+  margin-left: 20px;
+}
